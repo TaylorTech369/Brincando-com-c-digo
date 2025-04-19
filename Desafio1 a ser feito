@@ -1,0 +1,74 @@
+#Objetivo: Crie um jogo onde o computador escolhe um número aleatório entre 1 e 20, e o jogador tem que adivinhar qual é.
+
+#Regras:
+#O computador escolhe um número aleatório entre 1 e 20.
+
+#O jogador digita palpites até acertar.
+
+#A cada tentativa, o programa diz se o palpite foi:
+
+#Muito alto
+
+#Muito baixo
+
+#Correto!
+
+#Quando o jogador acertar, o jogo mostra quantas tentativas ele usou.
+
+#Dica:
+#Você vai usar:
+
+#random.randint(1, 20)
+
+#input() para pegar o palpite do jogador
+
+#int() para converter o input
+
+#Um while loop para continuar tentando até acertar
+
+    
+import random
+numero_sorteado = random.randint(1, 20)
+while numero_chute != numero_sorteado:
+ try:
+numero_chute = int(input())
+
+if numero_chute < numero_sorteado: #Numero sorteado é maior que isso
+ print ("Maior que ", numero_chute)
+elif numero_chute == numero_sorteado: #Acerto
+ print ("Acertou!!!")
+elif numero_chute > numero_sorteado: #Numero sorteado é menor que isso
+ print ("Menor que ", numero_chute)
+else:
+ print ("tente de novo")
+
+
+#Solução:
+
+import random
+
+# O sistema escolhe um número aleatório entre 1 e 10
+numero_secreto = random.randint(1, 10)
+
+print("Bem-vindo ao jogo de adivinhação!")
+print("Tente adivinhar o número que estou pensando entre 1 e 10.")
+
+# Inicializa as variáveis
+palpite = None
+tentativas = 0
+
+# Enquanto o jogador não acertar
+while palpite != numero_secreto:
+    try:
+        palpite = int(input("Seu palpite: "))
+        tentativas += 1
+
+        if palpite < numero_secreto:
+            print("Muito baixo! Tente novamente.")
+        elif palpite > numero_secreto:
+            print("Muito alto! Tente novamente.")
+        else:
+            print(f"Parabéns! Você acertou o número {numero_secreto} em {tentativas} tentativas!")
+    except ValueError:
+        print("Por favor, digite um número válido.")
+
