@@ -1,0 +1,17 @@
+🎲 1. Sortear um número aleatório
+import random
+
+print(random.randint(1, 10))  # Gera um número inteiro entre 1 e 10
+🔀 2. Embaralhar uma lista
+import random
+
+lista = [1, 2, 3, 4, 5]
+random.shuffle(lista)
+print(lista)  # Os elementos vão aparecer em ordem diferente
+🎯 3. Escolher um item aleatório de uma lista
+import random
+
+nomes = ['Ana', 'Lucas', 'João', 'Clara']
+sorteado = random.choice(nomes)
+print("Nome sorteado:", sorteado)
+Ou seja, simular sorteio, jogo de dados, embaralhar coisas ou tomar decisões aleatórias, o random é seu aliado 😄
