@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+
+real celsius, kelvin, fahrenheit
+
+ escreva("graus celsius ")
+ leia(celsius)
+ fahrenheit = celsius * 1.8 + 32
+ kelvin = celsius + 273.15
+ escreva("\ngraus celsius "+celsius)
+escreva("\ngraus fahrenheit "+fahrenheit)
+escreva("\ngraus kelvin "+kelvin)
+  }
+}
