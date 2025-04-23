@@ -1,0 +1,14 @@
+CREATE TABLE estudante(
+id INTEGER PRIMARY KEY,
+nome TEXT NOT NULL,
+idade DATA NOT NULL,
+genero TEXT NOT NULL
+);
+INSERT INTO estudante VALUES (1, 'André', 2003, 'M' );
+INSERT INTO estudante VALUES (2, 'Matheus', 2009, 'M' );
+INSERT INTO estudante VALUES (3, 'Pietro', 2007, 'M' );
+INSERT INTO estudante VALUES (4, 'Maria', 2005, 'F' );
+INSERT INTO estudante VALUES (5, 'Mariana', 2002, 'F' );
+
+SELECT * FROM estudante
+
