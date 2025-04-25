@@ -1,0 +1,14 @@
+"Preços"
+valor1 = 10
+valor2 = 0
+#valor3 =
+if ((valor1 + valor2) <= 10):
+ print("barato")
+elif ((valor1 + valor2) <= 25):
+ print("comum")
+elif ((valor1 + valor2) <= 50):
+ print("aceitavel?")
+elif ((valor1 + valor2) <= 75):
+ print("caro")
+else:
+ print("muito caro")
