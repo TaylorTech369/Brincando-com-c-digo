@@ -1,0 +1,58 @@
+print("Olá Mundo")
+#print("Meu nome é Charles")
+print("Serei o ser de teste para os comandos")
+nome = "Charles"
+idade = 1 
+print("Meu nome é", nome, "tenho", idade, "dia de idade")
+#print(nome, Idade)
+print("~~~~~~")
+print("Bom dia mundo")
+nome = "jones"
+idade = 10
+sorvetes = 21
+amigos = 2
+print("eu sou", nome, "tenho", sorvetes, "sorvetes de chocolate e divido com meus", amigos, "amigos")
+print("levando em consideração que são dividos igualmente entre nós, ficaria", ( sorvetes / (amigos + 1)), "para cada") 
+dividir = 7
+#print("levando em consideração que são dividos igualmente entre nós, ficaria", dividir, "para cada")
+print("~~~~~~")
+
+horario = "tarde"
+
+if horario == "manha":
+ print("bom dia")
+elif horario == "tarde":
+ print("boa tarde")
+else:
+ print("sou foda")
+
+#horario = "tarde"
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ID = 9
+if ID <= 0:
+ print("cargo inexistente")
+elif ID <= 10:
+ print("cargo de direção")
+elif ID <= 99:
+ print("professor")
+elif ID <= 99999:
+ print("aluno")
+else:
+ print("aluno Inexistente")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#print (input("Seu ID é: "))
+ID = int(input("Seu ID é de um "))
+#ID =
+if ID <= 0:
+ print("cargo inexistente")
+elif ID <= 10:
+ print("cargo de direção")
+elif ID <= 99:
+ print("professor")
+elif ID <= 99999:
+ print("aluno")
+else:
+ print("aluno Inexistente")
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~
